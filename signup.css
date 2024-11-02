@@ -1,0 +1,121 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+
+    body {
+        background-image: url('/image8.jpg');
+        background-repeat: no-repeat;
+        background-size: 40% 60%;
+        background-position: center center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+
+
+
+.wrapper {
+    position: relative;
+    width: 750px;
+    height: 450px;
+    background: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--black);
+    overflow: hidden;
+    background: linear-gradient(to top,#93d873,#abe063);
+}
+
+.form-box {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 40px;
+    transition: 0.5s;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+    color: var(--black);
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+   
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 22px;
+    color: #333;
+    
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #777;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: 0;
+    font-size: 0.75rem;
+    color: #333;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.register-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+label{
+    font-size: 50px;
+}

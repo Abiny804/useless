@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PERSONAL DETAILS:</h1>
+    <div class="vote">
+        <form>
+            <h2>PERSONAL DETAILS</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+            
+            
+            <label for="father_name">Father's Name:</label>
+            <input type="text" name="father_name" id="father_name" placeholder="Enter your father's name"required>
+            
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="DOB" id="DOB"required>
+            
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+            
+            <label for="CNIC">CNIC Number:</label>
+            <input type="text" name="CNIC" id="CNIC" placeholder="Enter your CNIC number"required>
+            
+            <button type="button" onclick="window.location.href='index.html';">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
