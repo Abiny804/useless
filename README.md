@@ -38,8 +38,7 @@ For Software:
 # Screenshots (Add at least 3)
 
 https://github.com/Abiny804/useless/blob/main/home_page.jpeg
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://github.com/Abiny804/useless/blob/main/personal_details.jpeg
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
