@@ -39,10 +39,7 @@ For Software:
 
 https://github.com/Abiny804/useless/blob/main/home_page.jpeg
 https://github.com/Abiny804/useless/blob/main/personal_details.jpeg
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+https://github.com/Abiny804/useless/blob/main/voting_page.jpeg
 
 
 
