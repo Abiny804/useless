@@ -1,0 +1,13 @@
+body{
+    
+    background-image: url('/image8.jpg');
+    background-repeat: no-repeat;
+    background-size: 40% 60%;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}

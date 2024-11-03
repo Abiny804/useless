@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin-top: 20px;
+}
+td {
+    width: 150px; /* Adjusted width */
+    height: 50px; /* Adjusted height */
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #8a2be2;
+    border-radius: 25px; /* Creates the rounded shape */
+    overflow: hidden;
+    position: relative; /* Needed for overlay effect */
+}
+.bulb {
+    width: 100%; /* Cover the full cell */
+    height: 100%; /* Cover the full cell */
+    border-radius: 25px; /* Matches the cell shape */
+    background-color: rgba(244, 7, 7, 0.6); /* Semi-transparent red for "off" state */
+}
+.bulb.on {
+    background-color: rgba(52, 246, 8, 0.6); /* Semi-transparent green for "on" state */
+}
+.vote-button {
+    padding: 9px 48px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+td:nth-child(2) {
+    font-weight: bold; /* Makes the participant name bold */
+}
